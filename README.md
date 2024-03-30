@@ -16,3 +16,25 @@ Chương trình nhận 1 tham số từ dòng lệnh là một chuỗi biểu th
 ```
 
 ## 2. Bài toán xếp balo 0-1 (0-1 Knapsack)
+
+Biên dịch bằng lệnh;
+
+```zsh
+    cc -o knapsack knapsack.c
+```
+
+Chương trình sử dụng dữ liệu nạp sẵn từ sách của Anany, mục 3.4
+
+## 3. Bài toán lập lịch sử dụng tài nguyên (Task schedualing)
+
+Biên dịch bằng lệnh
+
+```zsh
+    cc -o activity activity.c
+```
+
+Chương trình sử dụng dữ liệu nạp sẵn từ slide bài giảng
+
+## 4. Thuật toán Prim tìm cây bao trùm tối thiểu
+
+Biên dịch bằng lệnh
