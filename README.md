@@ -56,3 +56,14 @@ Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu 
 ```
 
 ## 5. Thuật toán Dijkstra
+
+Biên dịch bằng lệnh
+
+```zsh
+    cc -o dijkstra_ssp djkstra_ssp.c
+```
+
+Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu thị ma trận kề của đồ thị. Sinh ma trận mới bằng lệnh
+
+```zsh
+    python3 random_matrix.py n #n: cỡ của ma trận
