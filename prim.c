@@ -12,13 +12,13 @@ int find_min(int key[], int vertex_set[]){
     /* key[]: array to store key value of vertices
     infinity if vertex not in MST
     weight of edge with other end in MST if otherwise
-    MST[]: store vertices in MST
+    vertex_set[]: store vertices in MST
     1 if vertex is in MST
     0 otherwise */
-    int min_vertex;// vertex with min weigh, other end in MST
+    int min = INT_MAX, min_vertex;// vertex with min weigh, other end in MST
     for(int v = 0; v < V; v++)
-        if(vertex_set[v] == 0 && key[v] < INT_MAX)
-            min_vertex = v;
+        if(vertex_set[v] == 0 && key[v] < min)
+            min = key[v], min_vertex = v;
 
     return min_vertex;
 }

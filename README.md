@@ -1,5 +1,11 @@
 # Bài tập 4
 
+Các chương trình được chạy bằng lệnh
+
+```zsh
+    ./tên chương trình
+```
+
 ## 1. Bài toán đổi tiền (Change Coins)
 
 Biên dịch bằng lệnh
@@ -39,7 +45,14 @@ Chương trình sử dụng dữ liệu nạp sẵn từ slide bài giảng
 
 Biên dịch bằng lệnh
 
-```zsh 
+```zsh
     cc -o prim prim.c
 ```
-Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu thị ma trận kề của đồ thị. Sinh ma trận mới 
+
+Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu thị ma trận kề của đồ thị. Sinh ma trận mới bằng lệnh
+
+```zsh
+    python3 random_matrix.py n #n: cỡ của ma trận
+```
+
+## 5. Thuật toán Dijkstra
