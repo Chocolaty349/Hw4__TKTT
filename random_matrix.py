@@ -1,7 +1,8 @@
 import numpy as np
+import sys
 
 # Define the size of the square matrix
-n = 16
+n = int(sys.argv[1])
 
 # Generate a random square matrix of size n x n
 random_matrix = np.random.randint(1, 100, size=(n,n))

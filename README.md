@@ -38,3 +38,8 @@ Chương trình sử dụng dữ liệu nạp sẵn từ slide bài giảng
 ## 4. Thuật toán Prim tìm cây bao trùm tối thiểu
 
 Biên dịch bằng lệnh
+
+```zsh 
+    cc -o prim prim.c
+```
+Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu thị ma trận kề của đồ thị. Sinh ma trận mới 
