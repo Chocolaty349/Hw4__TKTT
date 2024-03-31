@@ -67,3 +67,25 @@ Chương trình sử dụng dữ liệu nạp sẵn là mảng 2 chiều biểu 
 
 ```zsh
     python3 random_matrix.py n #n: cỡ của ma trận
+```
+
+## Exercise 9.1: 10
+
+Trong mỗi bước lặp, thuật toán Prim chỉ xét tới những cạnh có một đầu là đỉnh chưa thuộc cây bao trùm, do đó cạnh mới thêm vào sẽ không thể nối 2 đỉnh đã thuộc cây từ trước đó và tạo thành chu trình, do đó không cần kiểm tra tính liên thông của đồ thị trước khi áp dụng thuật toán Prim
+
+## Exercise 9.3: 2b
+
+| Vertex | Distance from Source |
+|--------|----------------------|
+|   0    |          0           |
+|   1    |          3           |
+|   2    |          5           |
+|   3    |          4           |
+|   4    |          5           |
+|   5    |          7           |
+|   6    |          9           |
+|   7    |          9           |
+|   8    |          9           |
+|   9    |         12           |
+|  10    |         15           |
+|  11    |         14           |
